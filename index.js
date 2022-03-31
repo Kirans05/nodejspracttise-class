@@ -4,7 +4,7 @@ const port = process.env.PORT || 400
 
 
 app.get("/",(req,res)=>{
-    res.status(200).send("the the server is working fine").end()
+    res.status(200).send("heroku server").end()
 })
 
 app.listen(port,()=>{
